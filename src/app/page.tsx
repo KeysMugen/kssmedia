@@ -70,7 +70,7 @@ const services = [
 export default function Home() {
   const [isOpen, setIsOpen] = useState(false);
 
-  const scrollTo = (id: any) => {
+  const scrollTo = (id: string) => {
     const section = document.getElementById(id);
     if (section) {
       section.scrollIntoView({ behavior: "smooth" });
@@ -116,8 +116,8 @@ export default function Home() {
         id="head" className="h-screen flex flex-col justify-center items-center text-white text-center bg-cover bg-center"
         // style={{ backgroundImage: "url('https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=1650&q=80')" }}
       >
-        <h2 className="text-4xl md:text-5xl font-bold">NYC’s Full-Service Digital Agency</h2>
-        <p className="text-lg mt-4 max-w-xl">We help businesses scale with tailored strategies in branding, web design, advertising, and digital content. Let’s build something extraordinary.</p>
+        <h2 className="text-4xl md:text-5xl font-bold">NYC&apos;s Full-Service Digital Agency</h2>
+        <p className="text-lg mt-4 max-w-xl">We help businesses scale with tailored strategies in branding, web design, advertising, and digital content. Let&apos;s build something extraordinary.</p>
         <div className="mt-6 space-x-4">
           <button onClick={() => scrollTo("services")} className="bg-sky-600 px-6 py-3 rounded text-white font-semibold">Our Services</button>
           <button onClick={() => scrollTo("contact")} className="bg-white text-blue-900 px-6 py-3 rounded font-semibold">Contact Us</button>
@@ -144,19 +144,19 @@ export default function Home() {
         <div className="max-w-4xl mx-auto px-4 text-left space-y-8">
           <div>
             <h4 className="text-xl font-semibold text-blue-900">1. Transparent Collaboration</h4>
-            <p className="text-gray-700 mt-2">We believe in open communication and proactive planning. From day one, you'll know exactly who is working on your project, what’s happening next, and how we’re tracking toward your goals. No surprises. No jargon. Just clarity.</p>
+            <p className="text-gray-700 mt-2">We believe in open communication and proactive planning. From day one, you&apos;ll know exactly who is working on your project, what&apos;s happening next, and how we&apos;re tracking toward your goals. No surprises. No jargon. Just clarity.</p>
           </div>
           <div>
             <h4 className="text-xl font-semibold text-blue-900">2. Clear Timelines & Accountability</h4>
-            <p className="text-gray-700 mt-2">You’ll receive a detailed timeline with key milestones, checkpoints, and deliverables. We stick to deadlines, and when unexpected challenges arise, we communicate early and adjust with your priorities in mind.</p>
+            <p className="text-gray-700 mt-2">You&apos;ll receive a detailed timeline with key milestones, checkpoints, and deliverables. We stick to deadlines, and when unexpected challenges arise, we communicate early and adjust with your priorities in mind.</p>
           </div>
           <div>
             <h4 className="text-xl font-semibold text-blue-900">3. Quality Craftsmanship</h4>
-            <p className="text-gray-700 mt-2">We treat your brand as if it were our own. Every line of code, design decision, and campaign strategy is held to a high standard. Our work isn’t done until you’re confident and satisfied with the final product.</p>
+            <p className="text-gray-700 mt-2">We treat your brand as if it were our own. Every line of code, design decision, and campaign strategy is held to a high standard. Our work isn&apos;t done until you&apos;re confident and satisfied with the final product.</p>
           </div>
           <div>
             <h4 className="text-xl font-semibold text-blue-900">4. Long-Term Partnership</h4>
-            <p className="text-gray-700 mt-2">Whether you’re launching a one-off campaign or a complete rebrand, we’re here for the long run. We offer continuous support, performance reviews, and strategic insights to keep you growing.</p>
+            <p className="text-gray-700 mt-2">Whether you&apos;re launching a one-off campaign or a complete rebrand, we&apos;re here for the long run. We offer continuous support, performance reviews, and strategic insights to keep you growing.</p>
           </div>
           <div>
             <h4 className="text-xl font-semibold text-blue-900">5. Results You Can Measure</h4>
@@ -184,10 +184,10 @@ export default function Home() {
         <div className="max-w-6xl mx-auto px-4 text-center">
           <h3 className="text-3xl font-bold mb-6">Our Commitment to Craft</h3>
           <p className="text-lg text-gray-100 max-w-3xl mx-auto">
-            At KSSMedia, excellence isn't just an outcome — it's built into every step of our process. Behind every project is a multidisciplinary team of strategists, designers, developers, and creative thinkers dedicated to delivering pixel-perfect results. We obsess over the details, plan with precision, and test every solution to ensure it exceeds expectations.
+            At KSSMedia, excellence isn&apos;t just an outcome — it&apos;s built into every step of our process. Behind every project is a multidisciplinary team of strategists, designers, developers, and creative thinkers dedicated to delivering pixel-perfect results. We obsess over the details, plan with precision, and test every solution to ensure it exceeds expectations.
           </p>
           <p className="mt-6 text-gray-200">
-            We don’t believe in cutting corners — every line of code, every brand mark, and every campaign reflects our values: quality, clarity, and forward-thinking execution.
+            We don&apos;t believe in cutting corners — every line of code, every brand mark, and every campaign reflects our values: quality, clarity, and forward-thinking execution.
           </p>
           <p className="mt-4 text-gray-400 text-sm italic">
             We may work behind the scenes, but our impact speaks for itself.
